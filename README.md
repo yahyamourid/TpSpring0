@@ -26,13 +26,25 @@ git clone https://github.com/yahyamourid/TpSpring0.git
 ```
 - Ouvrez le projet dans votre IDE, compilez et exécutez l'application.
 - A partir de votre Terminal:
- ```
-  mvn clean install
- ```
+```
+ mvn clean install
+```
 Cette commande va télécharger les dépendances, compiler votre code et créer un fichier JAR exécutable dans le dossier `target`.
 
 ```
-   mvn spring-boot:run 
+ mvn spring-boot:run 
 ```
   pour lancer le projet.
+
+## Le Test des services:
+- La methode `findAll()` qui permet de récupérer tous les étudiants dans la base de données:
+  ```
+ @GetMapping("/all")
+	public List<Student> findAll() {
+		return studentRepository.findAll();
+	}
+  ```
+![image](https://github.com/yahyamourid/TpSpring0/assets/128039351/d92b13a2-89e3-4307-ba85-eccfbbae8290)
+
+
 
