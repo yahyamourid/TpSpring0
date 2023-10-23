@@ -96,7 +96,8 @@ Cette commande va télécharger les dépendances, compiler votre code et créer 
 ```
 ![image](https://github.com/yahyamourid/TpSpring0/assets/128039351/4f272dbf-25df-4baf-aa8d-476ede46406e)
 
-Créé par [Yahya MOURID](lien vers votre profil ou site web).
+Créé par [Votre Nom]
+
 
 
 
