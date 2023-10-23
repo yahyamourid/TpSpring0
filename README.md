@@ -10,7 +10,7 @@ Ce projet Spring est une application de démonstration qui utilise Hibernate com
 
 ## Configuration de la Base de Données:
 - Créez une base de données MySQL nommée nom_de_votre_base_de_donnees.
--Mettez à jour le fichier src/main/resources/application.properties avec les informations de votre base de données :
+- Mettez à jour le fichier src/main/resources/application.properties avec les informations de votre base de données :
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/nom_de_votre_base_de_donnees?useSSL=false
 spring.datasource.username=votre_nom_utilisateur
@@ -26,12 +26,13 @@ git clone https://github.com/yahyamourid/TpSpring0.git
 ```
 - Ouvrez le projet dans votre IDE, compilez et exécutez l'application.
 - A partir de votre Terminal:
-  ```
+ ```
   mvn clean install
-  ```
-  Cette commande va télécharger les dépendances, compiler votre code et créer un fichier JAR exécutable dans le dossier `target`.
-  ```
+ ```
+Cette commande va télécharger les dépendances, compiler votre code et créer un fichier JAR exécutable dans le dossier `target`.
+
+```
    mvn spring-boot:run 
-  ```
+```
   pour lancer le projet.
 
