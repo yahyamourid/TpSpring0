@@ -44,7 +44,7 @@ Cette commande va télécharger les dépendances, compiler votre code et créer 
 		return studentRepository.findAll();
 	}
 ```
-![image](https://github.com/yahyamourid/TpSpring0/assets/128039351/d92b13a2-89e3-4307-ba85-eccfbbae8290)
+<img width="960" alt="all" src="https://github.com/yahyamourid/TpSpring0/assets/128039351/04ebf7bc-0671-4c6d-a4fa-ee2da846bff9">
 
 - La methode `save()` qui permet d'ajouter un nouveau etudiant:
 ```
@@ -53,7 +53,7 @@ Cette commande va télécharger les dépendances, compiler votre code et créer 
 		studentRepository.save(student);
 	}
 ```
-![image](https://github.com/yahyamourid/TpSpring0/assets/128039351/1b4250b2-2846-4d7a-8d4a-c610edb1f8dc)
+<img width="960" alt="save" src="https://github.com/yahyamourid/TpSpring0/assets/128039351/54963ce9-478a-45ba-aa3f-45c24655082d">
 
 - La methode `findById()`  qui permet de récupérer un étudiant depuis son id:
 ```
@@ -66,7 +66,8 @@ Cette commande va télécharger les dépendances, compiler votre code et créer 
 			return ResponseEntity.notFound().build();
 	}
 ```
-![image](https://github.com/yahyamourid/TpSpring0/assets/128039351/0d6c85b2-5801-449d-aa5e-6d415021e00f)
+<img width="960" alt="getid" src="https://github.com/yahyamourid/TpSpring0/assets/128039351/39d336cb-14e4-4c51-8775-70e9c9cdcc2e">
+
 
 - La methode `update()` qui permet de modifier les donnees d'un etudiant:
 ```
@@ -84,7 +85,8 @@ Cette commande va télécharger les dépendances, compiler votre code et créer 
 
 	}
 ```
-![image](https://github.com/yahyamourid/TpSpring0/assets/128039351/d0094eb3-acbd-4bbc-aaef-1eb5e4031c5a)
+<img width="960" alt="update" src="https://github.com/yahyamourid/TpSpring0/assets/128039351/6da8f1bc-8322-4dbb-bfd1-3a0864908db3">
+
 
 - La methode `delete()` qui permet de supprimer un etudiant depuis son id:
 ```
@@ -94,7 +96,7 @@ Cette commande va télécharger les dépendances, compiler votre code et créer 
 		studentRepository.delete(student);
 	}
 ```
-![image](https://github.com/yahyamourid/TpSpring0/assets/128039351/4f272dbf-25df-4baf-aa8d-476ede46406e)
+<img width="960" alt="delete" src="https://github.com/yahyamourid/TpSpring0/assets/128039351/54929a10-25d0-4afd-9d91-5f3cc176f6c5">
 
 
 
