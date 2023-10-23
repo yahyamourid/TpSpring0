@@ -20,6 +20,18 @@ spring.jpa.hibernate.ddl-auto=update
 ```
 
 ## Lancement de l'Application:
--Clonez ce dépôt sur votre machine locale:
-```git clone https://github.com/yahyamourid/TpSpring0.git ```
+- Clonez ce dépôt sur votre machine locale:
+```
+git clone https://github.com/yahyamourid/TpSpring0.git
+```
+- Ouvrez le projet dans votre IDE, compilez et exécutez l'application.
+- A partir de votre Terminal:
+  ```
+  mvn clean install
+  ```
+  Cette commande va télécharger les dépendances, compiler votre code et créer un fichier JAR exécutable dans le dossier `target`.
+  ```
+   mvn spring-boot:run 
+  ```
+  pour lancer le projet.
 
