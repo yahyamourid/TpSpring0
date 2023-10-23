@@ -39,7 +39,7 @@ Cette commande va télécharger les dépendances, compiler votre code et créer 
 ## Le Test des services:
 - La methode `findAll()` qui permet de récupérer tous les étudiants dans la base de données:
   ```
- @GetMapping("/all")
+   @GetMapping("/all")
 	public List<Student> findAll() {
 		return studentRepository.findAll();
 	}
